@@ -99,74 +99,117 @@
                                         <h3 class="px-4">Junte-se a Nós</h3>
                                         <div class="col-md-6">
                                             <label for="inputEmail4" class="form-label">Email</label>
-                                            <input type="email" class="form-control" id="inputEmail4">
+                                            <input type="email" class="form-control" id="inputEmail4" placeholder="informe seu email">
                                             <div class="valid-feedback">Valid.</div>
                                             <div class="invalid-feedback">Please fill out this field.</div>
                                         </div>
                                         <div class="col-md-6">
-                                            <label for="inputPassword4" class="form-label">Password</label>
-                                            <input type="password" class="form-control" id="inputPassword4">
+                                            <label for="inputPassword4" class="form-label">Senha</label>
+                                            <input type="password" class="form-control" id="inputPassword4" placeholder="Informe sua senha">
                                             <div class="valid-feedback">Valid.</div>
                                             <div class="invalid-feedback">Please fill out this field.</div>
                                         </div>
                                         <div class="col-12">
-                                            <label for="inputAddress" class="form-label">Address</label>
-                                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                                            <div class="valid-feedback">Valid.</div>
-                                            <div class="invalid-feedback">Please fill out this field.</div>
-                                        </div>
-                                        <div class="col-12">
-                                            <label for="inputAddress2" class="form-label">Address 2</label>
-                                            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                                            <label for="inputAddress" class="form-label">Nome</label>
+                                            <input type="text" class="form-control" id="inputAddress" placeholder="Nome Completo">
                                             <div class="valid-feedback">Valid.</div>
                                             <div class="invalid-feedback">Please fill out this field.</div>
                                         </div>
                                         <div class="col-md-6">
-                                            <label for="inputCity" class="form-label">City</label>
-                                            <input type="text" class="form-control" id="inputCity">
+                                            <label for="inputCity" class="form-label">Cidade</label>
+                                            <input type="text" class="form-control" id="inputCity" placeholder="Brasília">
                                             <div class="valid-feedback">Valid.</div>
                                             <div class="invalid-feedback">Please fill out this field.</div>
                                         </div>
-                                        <div class="col-md-4">
-                                            <label for="inputState" class="form-label">State</label>
-                                            <select id="inputState" class="form-select">
-                                                <option selected>Choose...</option>
-                                                <option>...</option>
+                                        <div class="col-md-6">
+                                            <label for="inputCPF" class="form-label" >CPF</label>
+                                            <input class="form-control" id="inputCPF" type="text" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" \ placeholder=" XXX.XXX.XXX-XX">
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                        <div class="col-6">
+                                            <label for="inputEndereco" class="form-label">Endereco</label>
+                                            <input type="text" class="form-control" id="inputEndereco" placeholder="Avenida... Quadra... Rua...">
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                        <div class="col-4">
+                                            <label for="inputComplemento" class="form-label">Complemento</label>
+                                            <input type="text" class="form-control" id="inputComplemento" placeholder="Bloco, Apartamento, Casa, Fundos, Sobrado ,Etc..">
+                                        </div>
+                                        <div class="col-2">
+                                            <label for="inputEstado" class="form-label">Estado</label>
+                                            <select id="inputEstado" class="form-select">
+                                                <option value="" disabled selected>Selecione seu estado</option>
+                                                <option value="AC">Acre</option>
+                                                <option value="AL">Alagoas</option>
+                                                <option value="AP">Amapá</option>
+                                                <option value="AM">Amazonas</option>
+                                                <option value="BA">Bahia</option>
+                                                <option value="CE">Ceará</option>
+                                                <option value="DF">Distrito Federal</option>
+                                                <option value="ES">Espírito Santo</option>
+                                                <option value="GO">Goiás</option>
+                                                <option value="MA">Maranhão</option>
+                                                <option value="MT">Mato Grosso</option>
+                                                <option value="MS">Mato Grosso do Sul</option>
+                                                <option value="MG">Minas Gerais</option>
+                                                <option value="PA">Pará</option>
+                                                <option value="PB">Paraíba</option>
+                                                <option value="PR">Paraná</option>
+                                                <option value="PE">Pernambuco</option>
+                                                <option value="PI">Piauí</option>
+                                                <option value="RJ">Rio de Janeiro</option>
+                                                <option value="RN">Rio Grande do Norte</option>
+                                                <option value="RS">Rio Grande do Sul</option>
+                                                <option value="RO">Rondônia</option>
+                                                <option value="RR">Roraima</option>
+                                                <option value="SC">Santa Catarina</option>
+                                                <option value="SP">São Paulo</option>
+                                                <option value="SE">Sergipe</option>
+                                                <option value="TO">Tocantins</option>
                                             </select>
                                             <div class="valid-feedback">Valid.</div>
                                             <div class="invalid-feedback">Please fill out this field.</div>
                                         </div>
-                                        <div class="col-md-2">
-                                            <label for="inputZip" class="form-label">Zip</label>
-                                            <input type="text" class="form-control" id="inputZip">
+                                        <div class="col-6">
+                                            <label for="inputTelefone" class="form-label">Telefone</label>
+                                            <input type="tel" class="form-control" id="inputTelefone" placeholder="(01) 9 2345-6789">
                                             <div class="valid-feedback">Valid.</div>
                                             <div class="invalid-feedback">Please fill out this field.</div>
                                         </div>
-                                        <div class="col-12">
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" id="gridCheck">
-                                                <label class="form-check-label" for="gridCheck">
-                                                    Check me out
-                                                </label>
-                                            </div>
+                                        <div class="col-6">
+                                            <label for="inputDatanascimento" class="form-label">Data de Nascimento</label>
+                                            <input type="date" class="form-control" id="inputDatanascimento" placeholder="DD/MM/AAAA ">
                                             <div class="valid-feedback">Valid.</div>
                                             <div class="invalid-feedback">Please fill out this field.</div>
                                         </div>
                                         <div class="col-md-12">
-                                            <label for="inputZip" class="form-label">Zip</label>
-                                            <input type="text" class="form-control" id="">
-                                            <div class="valid-feedback">Valid.</div>
-                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                            <p>Termo De Condições:</p>
+                                            <a href="../termo/Termo%20e%20Condições%20Caramelos.pdf" download="Termo Condições Caramelos" >Baixar Termo De Condições</a>
                                         </div>
-                                        <div>
-                                        <label for="comment"class="" >Comments:</label>
-                                        <textarea class="form-control col-md-6 px-5 " rows="3" cols="10" id="comment" name="text"></textarea>
                                         <div class="col-12">
-                                            <button type="submit" class="btn btn-primary container-fluid">Sign in</button>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                                            <label class="form-check-label" for="gridCheck">
+                                                Confirmo as informacoes
+                                            </label>
                                         </div>
                                         <div class="valid-feedback">Valid.</div>
                                         <div class="invalid-feedback">Please fill out this field.</div>
-                                        <h2 class="fs-5 fw-bold mb-3">Or use a third-party</h2>
+                                        </div>
+                                        <div>
+                                        <div class="col-md-12">
+                                            <label for="comment"class="" >Conte mais Sobre Você:</label>
+                                            <textarea class="form-control col-md-6 px-6 " rows="3" cols="10" id="comment" name="text"></textarea>
+                                        </div>
+                                            <br>
+                                        <div class="col-12">
+                                            <button type="submit" class="btn btn-primary container-fluid">Sign in</button>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                        <h2 class="fs-5 fw-bold mb-3" >Or use a third-party</h2>
                                         <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit">
                                             <svg class="bi me-1" width="16" height="16"><use xlink:href="#twitter"/></svg>
                                             Sign up with Twitter
