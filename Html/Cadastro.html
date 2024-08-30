@@ -67,7 +67,7 @@
                 <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                     <img src="/img/logo.png" width="70px" height="50px">
                     <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                        <li><a href="#" class="nav-link px-2 text-white">Home</a></li>
+                        <li><a href="../Html/Home.html" class="nav-link px-2 text-white">Home</a></li>
                         <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
                         <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
                         <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
@@ -164,48 +164,48 @@
                                     <form class="row g-3 bg-light" >
                                         <h3 class="px-4">Junte-se a Nós</h3>
                                         <div class="col-md-6">
-                                            <label for="inputEmail4" class="form-label">Email</label>
-                                            <input type="email" class="form-control" id="inputEmail4" placeholder="informe seu email">
+                                            <label for="inputEmail4" class="form-label">Email</label >
+                                            <input type="email" class="form-control" id="inputEmail4" placeholder="informe seu email" required>
                                             <div class="valid-feedback">Valid.</div>
                                             <div class="invalid-feedback">Please fill out this field.</div>
                                         </div>
                                         <div class="col-md-6">
                                             <label for="inputPassword4" class="form-label">Senha</label>
-                                            <input type="password" class="form-control" id="inputPassword4" placeholder="Informe sua senha">
+                                            <input type="password" class="form-control" id="inputPassword4" placeholder="Informe sua senha" required>
                                             <div class="valid-feedback">Valid.</div>
                                             <div class="invalid-feedback">Please fill out this field.</div>
                                         </div>
                                         <div class="col-12">
                                             <label for="inputAddress" class="form-label">Nome</label>
-                                            <input type="text" class="form-control" id="inputAddress" placeholder="Nome Completo">
+                                            <input type="text" class="form-control" id="inputAddress" placeholder="Nome Completo" required>
                                             <div class="valid-feedback">Valid.</div>
                                             <div class="invalid-feedback">Please fill out this field.</div>
                                         </div>
                                         <div class="col-md-6">
                                             <label for="inputCity" class="form-label">Cidade</label>
-                                            <input type="text" class="form-control" id="inputCity" placeholder="Brasília">
+                                            <input type="text" class="form-control" id="inputCity" placeholder="Brasília " required>
                                             <div class="valid-feedback">Valid.</div>
                                             <div class="invalid-feedback">Please fill out this field.</div>
                                         </div>
                                         <div class="col-md-6">
                                             <label for="inputCPF" class="form-label" >CPF</label>
-                                            <input class="form-control" id="inputCPF" type="text" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" \ placeholder=" XXX.XXX.XXX-XX">
+                                            <input class="form-control" id="inputCPF" type="text" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" \ placeholder=" XXX.XXX.XXX-XX" required>
                                             <div class="valid-feedback">Valid.</div>
                                             <div class="invalid-feedback">Please fill out this field.</div>
                                         </div>
                                         <div class="col-6">
                                             <label for="inputEndereco" class="form-label">Endereco</label>
-                                            <input type="text" class="form-control" id="inputEndereco" placeholder="Avenida... Quadra... Rua...">
+                                            <input type="text" class="form-control" id="inputEndereco" placeholder="Avenida... Quadra... Rua..." required>
                                             <div class="valid-feedback">Valid.</div>
                                             <div class="invalid-feedback">Please fill out this field.</div>
                                         </div>
                                         <div class="col-4">
-                                            <label for="inputComplemento" class="form-label">Complemento</label>
+                                            <label for="inputComplemento" class="form-label">Complemento (Opcional)</label>
                                             <input type="text" class="form-control" id="inputComplemento" placeholder="Bloco, Apartamento, Casa, Fundos, Sobrado ,Etc..">
                                         </div>
                                         <div class="col-2">
                                             <label for="inputEstado" class="form-label">Estado</label>
-                                            <select id="inputEstado" class="form-select">
+                                            <select id="inputEstado" class="form-select" required>
                                                 <option value="" disabled selected>Selecione seu estado</option>
                                                 <option value="AC">Acre</option>
                                                 <option value="AL">Alagoas</option>
@@ -240,13 +240,13 @@
                                         </div>
                                         <div class="col-6">
                                             <label for="inputTelefone" class="form-label">Telefone</label>
-                                            <input type="tel" class="form-control" id="inputTelefone" placeholder="(01) 9 2345-6789">
+                                            <input type="tel" class="form-control" id="inputTelefone" placeholder="(01) 9 2345-6789" required>
                                             <div class="valid-feedback">Valid.</div>
                                             <div class="invalid-feedback">Please fill out this field.</div>
                                         </div>
                                         <div class="col-6">
                                             <label for="inputDatanascimento" class="form-label">Data de Nascimento</label>
-                                            <input type="date" class="form-control" id="inputDatanascimento" placeholder="DD/MM/AAAA ">
+                                            <input type="date" class="form-control" id="inputDatanascimento" placeholder="DD/MM/AAAA " required>
                                             <div class="valid-feedback">Valid.</div>
                                             <div class="invalid-feedback">Please fill out this field.</div>
                                         </div>
@@ -257,8 +257,8 @@
                                         </div>
                                         <div class="col-12">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" id="gridCheck">
-                                            <label class="form-check-label" for="gridCheck">
+                                            <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                                            <label class="form-check-label" for="gridCheck" >
                                                 Confirmo as informações
                                             </label>
                                         </div>
@@ -267,7 +267,7 @@
                                         </div>
                                         <div>
                                         <div class="col-md-12">
-                                            <label for="comment"class="" >Conte mais Sobre Você:</label>
+                                            <label for="comment"class="" >Conte mais Sobre Você (Opcional):</label>
                                             <textarea class="form-control col-md-6 px-6 " rows="3" cols="10" id="comment" name="text"></textarea>
                                         </div>
                                             <br>
