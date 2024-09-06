@@ -2,7 +2,7 @@
     $hostname = "localhost";
     $bancodedados = "clientes";
     $usuario = "root";
-    $senha = "";
+    $senha = "dudu";
 
     $mysqli = new mysqli($hostname, $bancodedados, $senha, $usuario);
     if ($mysqli->connect_error) {
